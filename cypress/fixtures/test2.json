@@ -1,0 +1,174 @@
+[
+	"$",
+	"main",
+	null,
+	{
+		"className": "flex min-h-screen justify-center",
+		"children": [
+			"$",
+			"div",
+			null,
+			{
+				"className": "container max-w-[600px] py-8",
+				"children": [
+					[
+						"$",
+						"header",
+						null,
+						{
+							"className": "flex items-center justify-between",
+							"children": [
+								[
+									"$",
+									"h1",
+									null,
+									{
+										"className": "text-lg font-bold text-slate-700",
+										"children": "Your Todo list"
+									}
+								],
+								[
+									"$",
+									"$Le",
+									null,
+									{
+										"href": "/tasks/new",
+										"children": "New Task",
+										"className": "inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-slate-950 disabled:pointer-events-none disabled:opacity-50 dark:focus-visible:ring-slate-300 bg-slate-900 text-slate-50 shadow hover:bg-slate-900/90 dark:bg-slate-50 dark:text-slate-900 dark:hover:bg-slate-50/90 h-8 rounded-md px-3 text-xs"
+									}
+								]
+							]
+						}
+					],
+					[
+						"$",
+						"div",
+						null,
+						{
+							"className": "h-10"
+						}
+					],
+					[
+						"$",
+						"p",
+						null,
+						{
+							"className": "flex items-center justify-center py-4 text-sm font-light text-slate-500",
+							"children": "You have no in progress tasks. Try and create one!"
+						}
+					],
+					[
+						"$",
+						"div",
+						null,
+						{
+							"className": "h-8"
+						}
+					],
+					[
+						[
+							"$",
+							"h2",
+							null,
+							{
+								"className": "text-center text-sm font-light uppercase tracking-wider text-slate-500",
+								"children": "Completed tasks"
+							}
+						],
+						[
+							"$",
+							"div",
+							null,
+							{
+								"className": "h-4"
+							}
+						],
+						[
+							"$",
+							"div",
+							null,
+							{
+								"className": "space-y-2",
+								"children": [
+									[
+										"$",
+										"div",
+										"809c22df-79a3-4709-9640-eb00f7e1e628",
+										{
+											"className": "rounded-md bg-white p-4 shadow-sm",
+											"children": [
+												[
+													"$",
+													"p",
+													null,
+													{
+														"className": "text-slate-700",
+														"children": "testovaci uprava 123 title"
+													}
+												],
+												[
+													"$",
+													"div",
+													null,
+													{
+														"className": "flex justify-between",
+														"children": [
+															[
+																"$",
+																"p",
+																null,
+																{
+																	"className": "text-xs text-slate-500",
+																	"children": [
+																		"Created at: ",
+																		"09.06.2024 12:10"
+																	]
+																}
+															],
+															[
+																"$",
+																"p",
+																null,
+																{
+																	"className": "text-xs text-slate-500",
+																	"children": [
+																		"Completed at: ",
+																		"09.06.2024 12:59"
+																	]
+																}
+															]
+														]
+													}
+												],
+												[
+													[
+														"$",
+														"div",
+														null,
+														{
+															"className": "h-2"
+														}
+													],
+													[
+														"$",
+														"p",
+														null,
+														{
+															"className": "line-clamp-2 text-sm font-light text-slate-700",
+															"children": "testovaci uprava 123 description"
+														}
+													]
+												]
+											]
+										}
+									]
+									
+								]
+							}
+						]
+					]
+				]
+			}
+		]
+	}
+]
